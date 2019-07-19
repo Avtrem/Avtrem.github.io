@@ -4,9 +4,26 @@
 	<meta charset="utf-8">
 	<title>pavelbryzgalov</title>
         <link rel="icon" type="image/png" href="favicon.png">
-	<link rel="stylesheet" href="style.css" media="all" rel="stylesheet" type="text/css">	
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script src="jquery.mb.YTPlayer.min.js"></script>
+	<script src="jquery.mb.YTPlayer.min.js"></script>	
+	  <style>    
+        #customElement {
+            width: 100%;
+            height: 400px;
+            background: rgba(81, 150, 191, 0.60);
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            background: url("assets/ytplayer_img.jpg") no-repeat center center;
+            background-size: cover;
+        }  
+    </style>
+	
+	
 </head>
 <body> 
 	<div id="wrapper">
@@ -26,6 +43,20 @@
 		</div>
 	<div id="video" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=U4xs0r7aJ9M&list=PLGmxyVGSCDKvmLInHxJ9VdiwEb82Lxd2E&index=96',containment:'#customElement', showControls:true, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default'}">
 	</div>
+	
+	   <script>
+        var myPlayer;
+        jQuery(function () {
+
+            var options = {
+                mobileFallbackImage: "http://www.hdwallpapers.in/walls/pink_cosmos_flowers-wide.jpg",
+                playOnlyIfVisible  : false
+            };
+
+            myPlayer = jQuery(".player").YTPlayer(options);
+        });
+    </script>
+	
 
 
 </body>
