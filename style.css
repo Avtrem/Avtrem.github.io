@@ -9,9 +9,17 @@ footer {font-family: Arial, Helvetica, sans-serif;
   position: absolute; bottom: 0; width: 100%;
 }
 
-.how:hover{  
+.how-1:hover{  
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   transition: all.5s;	
 }
+.how:hover{  
+  display: inline;	
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all.5s;	
+}
+
