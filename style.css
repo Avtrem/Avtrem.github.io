@@ -61,20 +61,19 @@ footer {
 
 #customElement {
   width: 103%;
-  height: 1080px;
+  height: 110%;
   background: rgba(81, 150, 191, 0.60);
-  position: relative;
+  position: absolute;
   z-index: 0;
   background: url("assets/ytplayer_img.jpg") no-repeat center center;
   background-size: cover;
-  bottom: auto;
+  
   padding: 0;
-  margin: 0;
+  margin-top: -2%;
  
   
 
 }
-<<<<<<< HEAD
 
 .con{
   padding: 1%;
@@ -82,7 +81,3 @@ footer {
 .pb{
   padding: 1%;
 }
-=======
-#wrapper{
-position: relative}
->>>>>>> e33bedc144a76d0833bac45ad112bc9eb2478277
