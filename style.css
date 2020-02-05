@@ -41,12 +41,15 @@ footer {
 }
 
 .tel {
-  position: relative;
+  position: absolute;
   width: 100px;
   height: 20px;
-  display: inline-table;
+  margin-left: 42%;
+    
   padding: 1%;
-  margin: 1.5%;
+
+  
+ 
 
 }
 
