@@ -74,6 +74,7 @@ footer {
   
 
 }
+<<<<<<< HEAD
 
 .con{
   padding: 1%;
@@ -81,3 +82,7 @@ footer {
 .pb{
   padding: 1%;
 }
+=======
+#wrapper{
+position: relative}
+>>>>>>> e33bedc144a76d0833bac45ad112bc9eb2478277
