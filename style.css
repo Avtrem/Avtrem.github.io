@@ -94,6 +94,17 @@ footer {
   .h{
     margin-top: 5%;
   }
+  #customElement {
+    width: 103%;
+    height: 110%;
+    background: rgba(81, 150, 191, 0.60);
+    position: absolute;
+    z-index: 0;
+    background: url("assets/ytplayer_img.jpg") no-repeat center center;
+    background-size: cover;  
+    padding: 0;
+    margin-top: -2%;
+    margin-left: 0%;
 }
 
 
