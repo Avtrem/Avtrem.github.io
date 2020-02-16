@@ -110,9 +110,10 @@ body {
   background-color: gray;
   background-image: url(carbon-fibre.png);
   text-align: center;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 .pb{
   padding: 3%;
 }
+
 }
