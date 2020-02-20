@@ -1,7 +1,6 @@
 @media not screen and (max-device-width: 425px){
 body {
-  background-color: gray;
-  background-image: url(carbon-fibre.png);
+  background-color:black;
   text-align: center;
   overflow: hidden;
 }
